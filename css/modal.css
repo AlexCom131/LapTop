@@ -1,12 +1,12 @@
 .cmodal.open .modal-overlay,
 .cmodal.open .modal-window {
-    z-index: 1;
+    z-index: 4;
     backdrop-filter: blur(6px);
 }
 
 .cmodal.hide .modal-overlay,
 .cmodal.hide .modal-window {
-    z-index: 1;
+    z-index: 4;
 }
 
 .modal-window, .modal-overlay{
